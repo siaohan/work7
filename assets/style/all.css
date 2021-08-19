@@ -11564,7 +11564,7 @@ fieldset:disabled .btn {
 }
 
 .menu_single {
-  padding: 150px 0px;
+  padding: 216px 0px;
 }
 
 .menu_single h2, .menu_single .h2 {
@@ -11591,16 +11591,16 @@ fieldset:disabled .btn {
 
 .position_absolute {
   position: absolute;
-  max-height: 864px;
-  -o-object-fit: cover;
-     object-fit: cover;
   padding: 0px;
   top: 0px;
   right: 0px;
 }
 
-.position_absolute img {
+.position_absolute .position_absolute_img {
+  height: 800px;
   display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .menu_collection {
@@ -11664,7 +11664,7 @@ fieldset:disabled .btn {
 .one_gear_right p {
   font-size: 16px;
   color: #00000099;
-  padding: 96px 0px 394px 135px;
+  padding: 96px 0px 350px 135px;
 }
 
 .one_gear_right h3, .one_gear_right .h3 {
@@ -11707,14 +11707,14 @@ fieldset:disabled .btn {
 .performance_left p {
   font-size: 16px;
   color: #00000099;
-  padding-left: 255px;
+  padding-left: 200px;
 }
 
 .performance_left h3, .performance_left .h3 {
   font-size: 72px;
   font-weight: bold;
   line-height: 90px;
-  padding: 192px 0px 394px 96px;
+  padding: 150px 0px 280px 96px;
 }
 
 .commuter {
