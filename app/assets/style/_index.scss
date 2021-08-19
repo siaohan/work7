@@ -1,5 +1,5 @@
 .menu_single{
-    padding: 150px 0px;
+    padding: 216px 0px;
     h2{
         font-size: 96px;
         line-height: 100px;
@@ -21,13 +21,14 @@
 }
 .position_absolute{
     position: absolute;
-    max-height:864px ;
-    object-fit: cover;
     padding: 0px;
     top: 0px;
     right:0px;
-    img{
+    .position_absolute_img{
+        height: 800px;
         display: block;
+        object-fit: cover;
+        
     }
 }
 .menu_collection{
@@ -71,7 +72,7 @@
     p{
         font-size: 16px;
         color: #00000099;
-        padding: 96px 0px 394px 135px;
+        padding: 96px 0px 350px 135px;
     }
     h3{
         font-size: 72px;
@@ -102,13 +103,13 @@
     p{
         font-size: 16px;
         color: #00000099;
-        padding-left: 255px;
+        padding-left: 200px;
     }
     h3{
         font-size: 72px;
         font-weight: bold;
         line-height: 90px;
-        padding: 192px 0px 394px 96px;
+        padding: 150px 0px 280px 96px;
     }
    
 }
