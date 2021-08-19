@@ -5,54 +5,79 @@ engine: ejs
 current: index
 ---
 
-<div class="container">
-  <h1 class="index__h1">這是一段話</h1>
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
-  </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
-  </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
-  </div>
+<div class="position_relative">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 menu_single">
+                <h2>Single Speed, Single Life.</h2>
+                <p>More recently the “fixie” has become a popular<br> alternative among mainly urban cyclists, offering the<br> advantage of simplicity compared with the standard<br> multi-geared bicycle.</p>
+                <input type="button" value="Shop Now">
+            </div>
+            <div class="col-lg-6 position_absolute">
+                <img src="../assets/images/img1.jpg" alt="">
+                <div class="menu_collection">
+                    <ul>
+                        <li><img src="../assets/images/chevron-left.svg" alt=""></li>
+                        <li><img src="../assets/images/chevron-right.svg" alt=""></li>
+                    </ul>
+                    <h3>Collection 001-xx</h3>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+<div class="one_gear">
+    <div class="one_gear_left"data-aos="fade-right">
+        <img src="../assets/images/img2.jpg" alt="">
     </div>
-  </div>
+    <div class="one_gear_right"data-aos="fade-right">
+        <p>A fixed gear drivetrain is more mechanically efficient than any other bicycle<br> drivetrain, with the most direct power transfer from rider to the wheels. Thus, it<br> requires less energy in any given gear to move than a geared bike in the same gear.</p>
+        <h3>One Gear,<br>Many Variations</h3>
+    </div>
+</div>
+
+<div class="performance">
+    <div class="performance_left"data-aos="fade-left">
+        <h3>Stripped-Down<br>Performance</h3>
+        <p>Without the added parts required for a fully geared drive train—derailleurs,<br> shifters, cables, cable carriers, multiple chain rings, freewheel hub, brazed-on<br> mounting lugs—a fixed gear bicycle weighs less than its geared equivalent.</p>
+    </div>
+    <div class="performance_right"data-aos="fade-left">
+        <img src="../assets/images/img3.jpg" alt="">
+    </div>
+</div>
+
+<div class="commuter"data-aos="fade-right">
+    <h4>A collection built for<br> regular commuters</h4>
+    <p>Riders unknown to each other commonly greet each other when on bikes. As in<br>  many subcultures, this feeling of belonging is a key factor in recruiting and<br>  retaining participants.</p>
+</div>
+
+<div class="background"data-aos="fade-up">
+    <div class="background_content"data-aos="fade-up">
+        <p>“I like to ride. Fixed gear. No brakes. Can’t stop. Don’t want to, either.”</p>
+        <span>Premium Rush (2012)</span>
+    </div>
+</div>
+
+<div class="container"data-aos="fade-up">
+    <div class="row">
+        <div class="col-lg-4 access">
+            <img src="../assets/images/img5.jpg" alt="">
+            <h5>All who cycle are my friends</h5>
+            <p>2020.4.27</p>
+            <p>A rider from Stockholm interviewed for an article about the phenomenon notes that riding a bike imparts a feeling of freedom to the rider…</p>
+        </div>
+        <div class="col-lg-4 access">
+            <img src="../assets/images/img6.jpg" alt="">
+            <h5>Swedish riders and enthusiasts</h5>
+            <p>2020.3.11</p>
+            <p>There are also several bicycle clubs throughout Sweden with a fixed-gear niche. Komet Club Rouler is a club based in Gothenburg, annually arranging Svart Kat…</p>
+        </div>
+        <div class="col-lg-4 access">
+            <img src="../assets/images/img7.jpg" alt="">
+            <h5>The Australian fixie culture</h5>
+            <p>2020.2.29</p>
+            <p>Online stores in Australia ship partially-assembled bikes directly to consumers, considerably undercutting prices at typical brick and mortar stores…</p>
+        </div>
+    </div>
 </div>
